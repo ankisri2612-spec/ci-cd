@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Student CI/CD Application version-4"
+    return "Student CI/CD Application version-5"
 
 
 @app.route("/add/<int:a>/<int:b>")
